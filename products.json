@@ -1,0 +1,73 @@
+[
+    {
+        "id": "1",
+        "title": "Apple iPhone SE 2020",
+        "image": "iphone-se-2020",
+        "description": "Apple iPhone SE 2020, NEW, 128gb",
+        "price": 419
+    },
+
+    {
+        "id": "2",
+        "title": "Apple iPhone X",
+        "image": "iphone-x",
+        "description": "Apple iPhone X, NEW, 256gb",
+        "price": 439
+    },
+
+    {
+        "id": "3",
+        "title": "Apple iPhone XR",
+        "image": "iphone-xr",
+        "description": "Apple iPhone XR, NEW, 64gb",
+        "price": 435
+    },
+
+    {
+        "id": "4",
+        "title": "Apple iPhone XS",
+        "image": "iphone-xs",
+        "description": "Apple iPhone XS, NEW, 64gb",
+        "price": 435
+    },
+
+    {
+        "id": "5",
+        "title": "Apple iPhone 11",
+        "image": "iphone-11",
+        "description": "Apple iPhone 11, NEW, 64gb",
+        "price": 519
+    },
+
+    {
+        "id": "6",
+        "title": "Apple iPhone 11 Pro",
+        "image": "iphone-11-pro",
+        "description": "Apple iPhone 11 Pro, NEW, 64gb",
+        "price": 619
+    },
+
+    {
+        "id": "7",
+        "title": "Apple iPhone 12 mini",
+        "image": "iphone-12-mini",
+        "description": "Apple iPhone 12 mini, NEW, 64gb",
+        "price": 599
+    },
+
+    {
+        "id": "8",
+        "title": "Apple iPhone 13",
+        "image": "iphone-13",
+        "description": "Apple iPhone 13, NEW, 128gb",
+        "price": 849
+    },
+
+    {
+        "id": "9",
+        "title": "Apple iPhone 13 Pro",
+        "image": "iphone-13-pro",
+        "description": "Apple iPhone 13 Pro",
+        "price": 1069
+    }
+]

@@ -54,7 +54,7 @@
         <!-- First section -->
         <section class="bg-dark text-light p-5 text-center text-lg-start p-lg-0 pt-lg-3">
             <div class="container">
-                <div class="d-lg-flex align-items-center justify-content-between">
+                <div class="d-lg-flex align-items-center justify-content-between border-bottom pb-3">
                     <div>
                         <h1>Buy your <span class="text-warning">New smartphone</span></h1>
                         <p class="my-2">
@@ -71,18 +71,18 @@
             </div>
         </section>
         <!-- Visit social network -->
-        <section class="bg-warning text-light p-2 text-center text-sm-start">
+        <section class="bg-dark text-light p-2 text-center text-sm-start">
             <div class="container p-1">
                 <div class="d-sm-flex aligin-items-center justify-content-between">
                     <div>
-                        <h3 class="mb-2 mb-md-0">Whant know more? Go to our social networks:</h3>
+                        <h3 class="mb-2 mb-md-0">Whant know more? Visit our social networks:</h3>
                     </div>
                     <div>
                         <a href="https://www.instagram.com/ijuice_store/">
-                            <img src="img/instagram.svg" alt="Instagram icon" id="instagram">
+                            <img class="bg-light rounded" src="img/instagram.svg" alt="Instagram icon" id="instagram">
                         </a>
                         <a href="https://www.facebook.com/ijuice.store">
-                            <img src="img/facebook.svg" alt="Facebook icon" id="facebook">
+                            <img class="bg-light rounded" src="img/facebook.svg" alt="Facebook icon" id="facebook">
                         </a>
                     </div>
                 </div>
@@ -90,38 +90,10 @@
         </section>
 
         <!-- Some products -->
-        <section class="container">
-            <div class="product-container row justify-content-between">
-                <div class="card col-12 col-sm-6 col-md-4 col-lg-3">
-                    <img src="img/iphone-11-pro-green.jpeg" class="card-img-top cards-img" alt="Apple iPhone 11 Pro">
-
-                    <div class="card-body">
-                        <h5 class="card-title">Apple iPhone 11 Pro</h5>
-                        <p class="card-text">Buy new Apple iPhone 11 Pro <br> with 30 day garanty.</p>
-                        <a href="#" class="btn btn-info" data-bs-toggle="modal"
-                            data-bs-target="#prodact-info-modal">More...</a>
-                        <a href="#" class="btn btn-primary">Go & Buy</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-4 col-lg-3">
-                    <img src="img/iphone-11-green.webp" class="card-img-top cards-img" alt="Apple iPhone 11">
-
-                    <div class="card-body">
-                        <h5 class="card-title">Apple iPhone 11</h5>
-                        <p class="card-text">Buy new Apple iPhone 11 <br> with 30 day garanty.</p>
-                        <a href="#" class="btn btn-info">More...</a>
-                        <a href="#" class="btn btn-primary">Go & Buy</a>
-                    </div>
-                </div>
-                <div class="card col-12 col-sm-6 col-md-4 col-lg-3">
-                    <img src="img/iphone-12-black.png" class="card-img-top cards-img" alt="Apple iPhone 12">
-
-                    <div class="card-body">
-                        <h5 class="card-title">Apple iPhone 12</h5>
-                        <p class="card-text">Buy new Apple iPhone 12 <br> with 30 day garanty.</p>
-                        <a href="#" class="btn btn-info">More...</a>
-                        <a href="#" class="btn btn-primary">Go & Buy</a>
-                    </div>
+        <section class="bg-dark text-white pt-4">
+            <div class="container p-1">
+                <h2 class="mx-auto  pb-2 text-center text-sm-start" id="products">Beat Sellers:</h2>
+                <div class="products-container row justify-content-between">
                 </div>
             </div>
         </section>
@@ -171,6 +143,7 @@
 
     <!-- Download products from server (json) -->
     <script src="js/products-service.js"></script>
+    <script src="js/products-list.js"></script>
 </body>
 
 </html>

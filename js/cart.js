@@ -16,17 +16,15 @@ class Cart {
     async renderCart() {
         let total = 0;
         let cartDomString = `
-        <div class="container">
             <div class="row">
                 <div class="col-5"><strong>Product</strong></div>
                 <div class="col-3"><strong>Price</strong></div>
                 <div class="col-2"><strong>Quantity</strong></div>
-            </div>
-        </div>`;
+            </div>`;
         for (const productId in this.cart) {
             const product = await this.productsService.getProductById(productId);
             total += product.price * this.cart[productId];
-            cartDomString = this.createCartProductDomString(product);
+            cartDomString += this.createCartProductDomString(product);
         }
         cartDomString += `
         <div class="row">
@@ -101,7 +99,7 @@ class Cart {
       data.append("name", form.querySelector("input[name=name]").value);
       data.append("email", form.querySelector("input[name=email]").value);
       ev.preventDefault();
-      fetch("https://formspree.io/f/mrgjwwro", {
+      fetch("https://formspree.io/f/xdojnkvy", {
         method: "POST",
         headers: {
           Accept: "application/json",

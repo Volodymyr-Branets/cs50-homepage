@@ -7,9 +7,16 @@ class ProductList {
     async renderProducts() {
         let productListDomString = '';
         const products = await this.productsService.getProducts();
+        const idList = [];
         for (let i = 0; i <= 3; i++){
-            productListDomString += this.createProductDomString(products[i]);
-        }
+            let randomIndex = Math.floor(Math.random() * 8) + 1;
+            while (idList.includes(randomIndex)){
+                randomIndex = Math.floor(Math.random() * 8) + 1;
+            }
+
+            idList.push(randomIndex);
+            productListDomString += this.createProductDomString(products[randomIndex]);
+            }
         // products.some(product => {
         //     productListDomString += this.createProductDomString(product);
         // });

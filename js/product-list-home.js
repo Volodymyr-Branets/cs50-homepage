@@ -17,7 +17,7 @@ class ProductList {
         this.addEventListeners();
     }
     createProductDomString(product) {
-        return `<article class="card col-12 col-sm-6 col-md-4 col-lg-3 bg-dark text-light border border-warning">
+        return `<article class="card col-12 col-sm-6 col-md-4 col-lg-3 bg-dark text-light">
                     <img src="img/${product.image}" class="rounded card-img-top m-1" alt="${product.title}">
                     <div class="card-body">
                         <h5 class="card-title">${product.title}</h5>
